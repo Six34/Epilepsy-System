@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build C++",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "${workspaceFolder}/src/main.cpp",  // Compile all .cpp files in the src directory
+                "-o", "${workspaceFolder}/test", // Output executable in the root directory
+                "-std=c++17"                     // Use C++11 standard
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"  // Set working directory to the main folder
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
