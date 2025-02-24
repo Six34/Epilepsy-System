@@ -1,6 +1,0 @@
-C:\Users\regis\OneDrive\Documents\GitHub\Epilepsy-System\Chimera\src\ChimeraCalculation\bin\Debug\ChimeraCalculation.dll
-C:\Users\regis\OneDrive\Documents\GitHub\Epilepsy-System\Chimera\src\ChimeraCalculation\bin\Debug\ChimeraCalculation.pdb
-C:\Users\regis\OneDrive\Documents\GitHub\Epilepsy-System\Chimera\src\ChimeraCalculation\obj\Debug\ChimeraCalculation.csproj.AssemblyReference.cache
-C:\Users\regis\OneDrive\Documents\GitHub\Epilepsy-System\Chimera\src\ChimeraCalculation\obj\Debug\ChimeraCalculation.csproj.CoreCompileInputs.cache
-C:\Users\regis\OneDrive\Documents\GitHub\Epilepsy-System\Chimera\src\ChimeraCalculation\obj\Debug\ChimeraCalculation.dll
-C:\Users\regis\OneDrive\Documents\GitHub\Epilepsy-System\Chimera\src\ChimeraCalculation\obj\Debug\ChimeraCalculation.pdb
