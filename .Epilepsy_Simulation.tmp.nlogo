@@ -208,7 +208,7 @@ cluster-neurons
 cluster-neurons
 0
 500
-401.0
+300.0
 1
 1
 NIL
@@ -223,7 +223,7 @@ bg-count
 bg-count
 0
 500
-89.0
+194.0
 1
 1
 NIL
@@ -238,7 +238,7 @@ base-period
 base-period
 0
 100
-43.0
+31.0
 1
 1
 NIL
@@ -253,7 +253,7 @@ refractory-period
 refractory-period
 0
 50
-32.0
+25.0
 1
 1
 NIL
@@ -268,7 +268,7 @@ initial-energy
 initial-energy
 0
 200
-103.0
+62.0
 1
 1
 NIL
@@ -298,7 +298,7 @@ max-radius
 max-radius
 0
 50
-12.0
+8.0
 1
 1
 NIL
@@ -313,7 +313,7 @@ sync-threshold
 sync-threshold
 0
 20
-17.0
+11.0
 1
 1
 NIL
@@ -437,9 +437,9 @@ NIL
 10.0
 0.0
 10.0
+true
 false
-false
-"set-plot-x-range 0 initial-energy\nset-plot-y-range 0 count turtles\nset-histogram-num-bars 7" ""
+"set-plot-x-range 0 initial-energy\nset-histogram-num-bars 20" ""
 PENS
 "default" 1.0 1 -13840069 true "" "histogram [energy] of turtles"
 
