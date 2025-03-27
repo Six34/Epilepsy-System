@@ -202,12 +202,13 @@ to go
   ]
 
   display ; NOW we display after we've done everything i love this program it makes me really happy
+          ; commenting out the display line will likely grant better performance
   tick
 end
 
 
 
-; reporting everything needd for the new stuff
+; reporting everything need for the new stuff
 to-report secondary-active
   report count secondary-neurons with [active?]
 end
