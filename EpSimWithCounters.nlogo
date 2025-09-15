@@ -319,8 +319,8 @@ GRAPHICS-WINDOW
 64
 -64
 64
-1
-1
+0
+0
 1
 ticks
 30.0
@@ -333,8 +333,8 @@ SLIDER
 cluster-neurons
 cluster-neurons
 0
-600
-368.0
+1000
+1000.0
 1
 1
 NIL
@@ -349,7 +349,7 @@ bg-count
 bg-count
 0
 1000
-1000.0
+776.0
 1
 1
 NIL
@@ -364,7 +364,7 @@ base-period
 base-period
 0
 100
-45.0
+35.0
 1
 1
 NIL
@@ -379,7 +379,7 @@ refractory-period
 refractory-period
 0
 50
-26.0
+21.0
 1
 1
 NIL
@@ -394,7 +394,7 @@ initial-energy
 initial-energy
 0
 200
-172.0
+75.0
 1
 1
 NIL
@@ -424,7 +424,7 @@ max-radius
 max-radius
 0
 50
-13.0
+9.0
 1
 1
 NIL
@@ -439,7 +439,7 @@ sync-threshold
 sync-threshold
 0
 20
-11.0
+14.0
 1
 1
 NIL
@@ -571,7 +571,7 @@ secondary-neuron-count
 secondary-neuron-count
 0
 600
-192.0
+384.0
 1
 1
 NIL
@@ -603,8 +603,8 @@ spontaneous-firing-chance
 spontaneous-firing-chance
 0
 1
-0.1
-0.1
+0.01
+0.01
 1
 NIL
 HORIZONTAL

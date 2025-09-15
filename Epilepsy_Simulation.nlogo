@@ -173,13 +173,13 @@ to go
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
-583
-21
-1111
-550
+1212
+33
+1657
+479
 -1
 -1
-8.0
+6.7231
 1
 10
 1
@@ -200,85 +200,85 @@ ticks
 30.0
 
 SLIDER
-140
-27
-312
-60
+1257
+501
+1429
+534
 cluster-neurons
 cluster-neurons
 0
 500
-401.0
+300.0
 1
 1
 NIL
 HORIZONTAL
 
 SLIDER
-140
-64
-312
-97
+1257
+538
+1429
+571
 bg-count
 bg-count
 0
 500
-89.0
+229.0
 1
 1
 NIL
 HORIZONTAL
 
 SLIDER
-140
-101
-312
-134
+1257
+575
+1429
+608
 base-period
 base-period
 0
 100
-43.0
+35.0
 1
 1
 NIL
 HORIZONTAL
 
 SLIDER
-140
-138
-312
-171
+1257
+612
+1429
+645
 refractory-period
 refractory-period
 0
 50
-32.0
+20.0
 1
 1
 NIL
 HORIZONTAL
 
 SLIDER
-317
-27
-489
-60
+1434
+501
+1606
+534
 initial-energy
 initial-energy
 0
 200
-103.0
+75.0
 1
 1
 NIL
 HORIZONTAL
 
 SLIDER
-317
-64
-489
-97
+1434
+538
+1606
+571
 min-radius
 min-radius
 0
@@ -290,40 +290,40 @@ NIL
 HORIZONTAL
 
 SLIDER
-316
-102
-488
-135
+1433
+576
+1605
+609
 max-radius
 max-radius
 0
 50
-12.0
+10.0
 1
 1
 NIL
 HORIZONTAL
 
 SLIDER
-316
-138
-488
-171
+1433
+612
+1605
+645
 sync-threshold
 sync-threshold
 0
 20
-17.0
+13.0
 1
 1
 NIL
 HORIZONTAL
 
 BUTTON
-326
-190
-389
-223
+1443
+664
+1506
+697
 NIL
 go
 T
@@ -337,10 +337,10 @@ NIL
 1
 
 BUTTON
-240
-189
-303
-222
+1357
+663
+1420
+696
 NIL
 setup
 NIL
@@ -354,10 +354,10 @@ NIL
 1
 
 PLOT
-1119
-21
-1631
-340
+26
+47
+932
+366
 Clustered Neurons
 NIL
 NIL
@@ -372,10 +372,10 @@ PENS
 "default" 1.0 0 -16777216 true "" "plot count focus-neurons with [active?] \n\nif ticks > 1000                               \n[\n\n  set-plot-x-range (ticks - 1000) ticks                                       \n]"
 
 PLOT
-1120
-357
-1632
-667
+27
+383
+932
+693
 Scattered Neurons
 NIL
 NIL
@@ -388,60 +388,6 @@ false
 "" "set-plot-y-range 0 count bg-neurons\n"
 PENS
 "default" 1.0 0 -16777216 true "" "plot count bg-neurons with [active?]\n\nif ticks > 1000                               \n[\n\n  set-plot-x-range (ticks - 1000) ticks                                       \n]"
-
-PLOT
-36
-492
-568
-761
-Scattered Neurons Eneergy Total
-NIL
-NIL
-0.0
-10.0
-0.0
-10.0
-true
-false
-"" ""
-PENS
-"default" 1.0 0 -16777216 true "" "plot sum [energy] of bg-neurons\n\nif ticks > 1000                               \n[\n\n  set-plot-x-range (ticks - 1000) ticks                                       \n]"
-
-PLOT
-44
-234
-573
-480
-Clustered Neurons Eneergy Total
-NIL
-NIL
-0.0
-10.0
-0.0
-10.0
-true
-false
-"" ""
-PENS
-"default" 1.0 0 -16777216 true "" "plot sum [energy] of focus-neurons\n\nif ticks > 1000                               \n[\n\n  set-plot-x-range (ticks - 1000) ticks                                       \n]"
-
-PLOT
-642
-569
-969
-808
-plot 1
-NIL
-NIL
-0.0
-10.0
-0.0
-10.0
-false
-false
-"set-plot-x-range 0 initial-energy\nset-plot-y-range 0 count turtles\nset-histogram-num-bars 7" ""
-PENS
-"default" 1.0 1 -13840069 true "" "histogram [energy] of turtles"
 
 @#$#@#$#@
 ## WHAT IS IT?
